@@ -1,5 +1,8 @@
 import pyxel
+
+
 #br1
+# push1
 class App:
     def __init__(self):
         pyxel.init(160, 120, title="Hello Pyxel")
@@ -13,5 +16,6 @@ class App:
         pyxel.cls(0)
         pyxel.text(55, 41, "Hello, Pyxel!", pyxel.frame_count % 16)
         pyxel.blt(61, 66, 0, 0, 0, 38, 16)
+
 
 App()
