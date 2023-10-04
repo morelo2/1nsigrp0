@@ -2,7 +2,7 @@ import pyxel
 
 
 #br1
-# push1
+# push3
 class App:
     def __init__(self):
         pyxel.init(160, 120, title="Hello Pyxel")
